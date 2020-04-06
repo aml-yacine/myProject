@@ -1,0 +1,249 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo', sans-serif;
+    box-sizing: border-box;
+}
+
+.header
+{
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.layer
+{
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+}
+header .container
+{
+   
+    width: 1300px;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+}
+
+
+header .container ul li
+{
+list-style: none;
+display: inline-block;
+margin: 0 30px;
+
+}
+header .container ul li a {
+    color: white;
+    text-decoration: none;
+    transition:  color 0.6s;
+}
+header .container ul li a:hover
+{
+    color: #49a8fc;
+}
+header .container ul li img 
+{
+width: 50%;
+border-radius: 50%;
+margin-top: 30px;
+transition: transform 1s;
+}
+header .container ul li img:hover
+{
+    transform: scale(0.8);
+}
+.title
+{
+    margin-top: 150px;
+}
+.title h1
+{
+    font-size: 47px;
+    padding: 5px 0px;
+}
+.title p
+{
+    padding-bottom:5px ;
+}
+.title button
+{
+    padding: 12px 30px;
+    color: white;
+    background: transparent;
+    font-size: 19px;
+    border: 2px solid #bfdaf1;
+    transition: background-color 1s;
+}
+.title button:hover
+{
+    background-color: #bfdaf1;
+    color: #000;
+    border: none;
+}
+.services
+{
+    background-color: #bfdaf1;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px 0;
+
+}
+.services .service-head
+{
+    margin-bottom: 50px;
+    padding: 30px 0;
+}
+.services .service-head h2
+{
+    color: #fff;
+    font-weight: 500;
+    font-size: 37px;
+}
+.myContainer
+{
+    width: 1300px;
+    margin: auto;
+    padding: 30px 0 50px;
+    display: flex;
+}
+.services .main
+{
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 20px -15px rgb(164, 164, 168);
+}
+.services .content
+{
+    border-radius: 10px;
+    background-color: #fff;
+   padding: 30px;
+   transition: transform 1s;
+}
+.services .content-img
+{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: -90px auto 0;
+    background-color: #fff;
+    border: 18px solid #bfdaf1;
+}
+.services .content img
+{
+   
+    width: 50px;
+    margin-top: 20px;
+    transition: transform 1.3s;
+}
+.services .content h4
+{
+    padding: 20px;
+    font-size: 25px;
+    color: #000;
+    font-weight: 600;
+}
+.shadowOne
+{
+    width: 80%;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    z-index: -1;
+    transition: transform 0.8s;
+    box-shadow: 0 0 20px -15px rgb(164, 164, 168);
+
+}
+.shadowTwo
+{
+    width: 60%;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    z-index: -2;
+    transition: transform 0.8s;
+    box-shadow: 0 0 20px -15px rgb(164, 164, 168);
+
+}
+.main:hover img
+{
+transform: rotate(360deg);
+}
+.main:hover .content {
+    transform: translatey(-50px);
+}
+.main:hover .shadowOne
+{
+    transform: translatey(-25px);
+}
+.about
+{
+   
+}
+.about .about-content {
+width: 40%;
+float: left;
+margin-left: 30px;
+
+ 
+}
+.about .about-content h3 
+{
+color:#044177 ;
+padding-bottom: 15px;
+}
+.about .about-content p
+{
+padding: 10px;
+}
+.about .about-img
+{
+width: 50%;
+float: right;
+}
+.about .about-img img
+{
+width: 100%;
+}
+.clr
+{
+    clear: both;
+}
+.fixed
+{
+    background-image: url("../images/start1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
